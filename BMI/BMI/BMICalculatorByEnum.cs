@@ -23,13 +23,13 @@ namespace BMI
         public double indexBMI { get; set; }
         public string BMIMessage { get; set; }
 
-        public BMICalculator CalculateE(double weight, double haight)
+        public BMICalculatorByEnum CalculateE(double weight, double haight)
         {
             Validate(weight, haight);
             BMICalculatorByEnum bMICalculator = new BMICalculatorByEnum();
             bMICalculator.indexBMI = Math.Round(weight / Math.Pow(haight / 100, 2), 2);
             bMICalculator.BMIMessage = DetermineBMIMessage(bMICalculator.indexBMI);
-            return BMICalculatorByEnum;
+            return bMICalculator;
         }
 
         private static void Validate(double weight, double haight)

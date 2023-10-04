@@ -14,8 +14,10 @@ namespace BMI
 
             Console.WriteLine("BMI is: " + bMICalculator1.indexBMI + ". Message: " + bMICalculator1.BMIMessage);
 
+            BMICalculatorByEnum bmiCalculator2 = new BMICalculatorByEnum(); 
+            bmiCalculator2 = bmiCalculator2.CalculateE(weight,height);
 
-
+            Console.WriteLine("BMI is: " + bMICalculator2.indexBMI + ". Message: " + bMICalculator2.BMIMessage);
         }
     }
 }

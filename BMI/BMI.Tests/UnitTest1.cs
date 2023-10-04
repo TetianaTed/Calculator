@@ -46,7 +46,7 @@ namespace BMI.Tests
 17 - 18.49 - niedowagê
 18.5 - 24.99 - wagê prawid³ow¹
 25.0 - 29.9 - nadwagê
-30.0 - 34.99 - 
+30.0 - 34.99 - I stopieñ oty³oœci
 35.0 - 39.99 - II stopieñ oty³oœci
 powy¿ej 40.0 - oty³oœæ skrajn¹
  */
